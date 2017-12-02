@@ -18,11 +18,11 @@
   <title>CoreUI - Open Source Bootstrap Admin Template</title>
 
   <!-- Icons -->
-  <link href="node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="node_modules/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+  <link href="/node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="/node_modules/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
   <!-- Main styles for this application -->
-  <link href="css/style.css" rel="stylesheet">
+  <link href="/css/style.css" rel="stylesheet">
 </head>
 
 <!-- BODY options, add following classes to body to change options
@@ -69,9 +69,42 @@
     <div class="sidebar">
       <nav class="sidebar-nav">
         <ul class="nav">
-          <li class="nav-item">
-            <a class="nav-link" href="main.html"><i class="icon-speedometer"></i> Dashboard </a>
-          </li>
+		  
+		  <li class="nav-item nav-dropdown">
+            <a class="nav-link nav-dropdown-toggle" href="#"><i class="icon-puzzle"></i> Administartor </a>
+            <ul class="nav-dropdown-items">
+              <li class="nav-item">
+                <a class="nav-link" href="Admin/main.html"><i class="icon-speedometer"></i> Dashboard </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="icon-puzzle"></i> Section #</a>
+              </li>
+			</ul>
+			</li>
+			
+			<li class="nav-item nav-dropdown">
+            <a class="nav-link nav-dropdown-toggle" href="#"><i class="icon-puzzle"></i> Educator </a>
+            <ul class="nav-dropdown-items">
+              <li class="nav-item">
+                <a class="nav-link" href="Educator/main.html"><i class="icon-speedometer"></i> Dashboard </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="icon-puzzle"></i> Section #</a>
+              </li>
+			</ul>
+			</li>
+			
+			<li class="nav-item nav-dropdown">
+            <a class="nav-link nav-dropdown-toggle" href="#"><i class="icon-puzzle"></i> Student </a>
+            <ul class="nav-dropdown-items">
+              <li class="nav-item">
+                <a class="nav-link" href="Student/main.html"><i class="icon-speedometer"></i> Dashboard </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="icon-puzzle"></i> Section #</a>
+              </li>
+			</ul>
+			</li>
 
         </ul>
       </nav>
@@ -90,14 +123,14 @@
   </div>
 
   <!-- Bootstrap and necessary plugins -->
-  <script src="node_modules/jquery/dist/jquery.min.js"></script>
-  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script src="node_modules/pace-progress/pace.min.js"></script>
+  <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="/node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="/node_modules/pace-progress/pace.min.js"></script>
 
   <!-- CoreUI main scripts -->
 
-  <script src="js/app.js"></script>
+  <script src="/js/app.js"></script>
 
 </body>
 </html>
