@@ -1,0 +1,36 @@
+<div class="container">
+    <br>
+    <h2>Recommendation</h2>
+    <br>
+    <form>
+        <div class="form-group">
+            <label class="col-form-label" for="name">Name/ID</label>
+            <input type="text" class="form-control" id="name" placeholder="Name or ID">
+        </div>
+        <div class="form-row">
+        <div class="form-group col-md-6">
+            <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" value="">
+                Study Time
+            </label>
+        </div>
+        <div class="form-group col-md-6">
+            <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" value="">
+                Attendance
+            </label>
+        </div>
+    </div>
+        <div class="form-group">
+            <label class="col-form-label" for="rec">Additional recommendation</label>
+            <textarea class="form-control" rows="5" id="rec"></textarea>
+        </div>
+        <button type="submit" class="btn btn-default pull-right" onclick="myFunction()"">Submit</button>
+    </form>
+</div>
+
+<script>
+    function myFunction() {
+    alert("Thank you for submitting a recommendation it will be reviewed by admin");
+}
+</script>
